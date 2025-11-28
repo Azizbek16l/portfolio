@@ -1,0 +1,47 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: sans-serif;
+  
+}
+
+a {
+  text-decoration: none;
+}
+header {
+  width: 100%;
+  padding: 33px 0;
+
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+header {
+  h1 {
+    color: white;
+  }
+}
+header .container { 
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  gap: 43px;
+}
+
+nav a {
+  font-size: 14px;
+  font-weight: 800;
+  color: #949494;
+}
+
+html {
+  background: #1A1A1A;
+}
